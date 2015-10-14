@@ -2,7 +2,7 @@
 help you set the default tint color for your app.
 Shorten the time of customization for UIControls with just one line of code.
 
-<img src="https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/screen1.png" alt="Screenshot" style="width: 320px;"/>
+<img src="https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/screen1.png" alt="Screenshot" style="width: 160px;"/>
 ![alt tag](https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/screen2.png)
 ![alt tag](https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/screen3.png)
 # Setup
