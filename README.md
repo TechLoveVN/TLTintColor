@@ -3,8 +3,6 @@ help you set the default tint color for your app.
 Shorten the time of customization for UIControls with just one line of code.
 
 <img src="https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/Screenshot1.png" alt="Screenshot" style="width: 320px;"/>
-<img src="https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/Screenshot2.png" alt="Screenshot" style="width: 320px;"/>
-<img src="https://raw.githubusercontent.com/TechLoveVN/TLTintColor/master/Screenshot3.png" alt="Screenshot" style="width: 320px;"/>
 
 # Setup
 - Import "DPTheme.swift" into your project.
