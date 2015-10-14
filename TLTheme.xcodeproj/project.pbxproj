@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AA5DCF1BCE647F005DD4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA5DCE1BCE647F005DD4E0 /* AppDelegate.swift */; };
+		82AA5DD11BCE647F005DD4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA5DD01BCE647F005DD4E0 /* ViewController.swift */; };
+		82AA5DD41BCE647F005DD4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA5DD21BCE647F005DD4E0 /* Main.storyboard */; };
+		82AA5DD61BCE647F005DD4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AA5DD51BCE647F005DD4E0 /* Assets.xcassets */; };
+		82AA5DD91BCE647F005DD4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AA5DD71BCE647F005DD4E0 /* LaunchScreen.storyboard */; };
+		82AA5DE41BCE6480005DD4E0 /* TLThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA5DE31BCE6480005DD4E0 /* TLThemeTests.swift */; };
+		82AA5DEF1BCE6480005DD4E0 /* TLThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA5DEE1BCE6480005DD4E0 /* TLThemeUITests.swift */; };
+		82AA5DFE1BCE6709005DD4E0 /* techlove@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82AA5DFD1BCE6709005DD4E0 /* techlove@2x.jpg */; settings = {ASSET_TAGS = (); }; };
+		82AA5E001BCE6CAA005DD4E0 /* TLTintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA5DFF1BCE6CAA005DD4E0 /* TLTintColor.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82AA5DE01BCE6480005DD4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AA5DC31BCE647F005DD4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AA5DCA1BCE647F005DD4E0;
+			remoteInfo = TLTheme;
+		};
+		82AA5DEB1BCE6480005DD4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82AA5DC31BCE647F005DD4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AA5DCA1BCE647F005DD4E0;
+			remoteInfo = TLTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AA5DCB1BCE647F005DD4E0 /* TLTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA5DCE1BCE647F005DD4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82AA5DD01BCE647F005DD4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82AA5DD31BCE647F005DD4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82AA5DD51BCE647F005DD4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82AA5DD81BCE647F005DD4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82AA5DDA1BCE647F005DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AA5DDF1BCE6480005DD4E0 /* TLThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA5DE31BCE6480005DD4E0 /* TLThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLThemeTests.swift; sourceTree = "<group>"; };
+		82AA5DE51BCE6480005DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AA5DEA1BCE6480005DD4E0 /* TLThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AA5DEE1BCE6480005DD4E0 /* TLThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLThemeUITests.swift; sourceTree = "<group>"; };
+		82AA5DF01BCE6480005DD4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82AA5DFD1BCE6709005DD4E0 /* techlove@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "techlove@2x.jpg"; sourceTree = "<group>"; };
+		82AA5DFF1BCE6CAA005DD4E0 /* TLTintColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TLTintColor.swift; path = Class/TLTintColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AA5DC81BCE647F005DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DDC1BCE6480005DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DE71BCE6480005DD4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AA5DC21BCE647F005DD4E0 = {
+			isa = PBXGroup;
+			children = (
+				82AA5DFC1BCE6487005DD4E0 /* Class */,
+				82AA5DCD1BCE647F005DD4E0 /* TLTheme */,
+				82AA5DE21BCE6480005DD4E0 /* TLThemeTests */,
+				82AA5DED1BCE6480005DD4E0 /* TLThemeUITests */,
+				82AA5DCC1BCE647F005DD4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AA5DCC1BCE647F005DD4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AA5DCB1BCE647F005DD4E0 /* TLTheme.app */,
+				82AA5DDF1BCE6480005DD4E0 /* TLThemeTests.xctest */,
+				82AA5DEA1BCE6480005DD4E0 /* TLThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AA5DCD1BCE647F005DD4E0 /* TLTheme */ = {
+			isa = PBXGroup;
+			children = (
+				82AA5DFD1BCE6709005DD4E0 /* techlove@2x.jpg */,
+				82AA5DCE1BCE647F005DD4E0 /* AppDelegate.swift */,
+				82AA5DD01BCE647F005DD4E0 /* ViewController.swift */,
+				82AA5DD21BCE647F005DD4E0 /* Main.storyboard */,
+				82AA5DD51BCE647F005DD4E0 /* Assets.xcassets */,
+				82AA5DD71BCE647F005DD4E0 /* LaunchScreen.storyboard */,
+				82AA5DDA1BCE647F005DD4E0 /* Info.plist */,
+			);
+			path = TLTheme;
+			sourceTree = "<group>";
+		};
+		82AA5DE21BCE6480005DD4E0 /* TLThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				82AA5DE31BCE6480005DD4E0 /* TLThemeTests.swift */,
+				82AA5DE51BCE6480005DD4E0 /* Info.plist */,
+			);
+			path = TLThemeTests;
+			sourceTree = "<group>";
+		};
+		82AA5DED1BCE6480005DD4E0 /* TLThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82AA5DEE1BCE6480005DD4E0 /* TLThemeUITests.swift */,
+				82AA5DF01BCE6480005DD4E0 /* Info.plist */,
+			);
+			path = TLThemeUITests;
+			sourceTree = "<group>";
+		};
+		82AA5DFC1BCE6487005DD4E0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				82AA5DFF1BCE6CAA005DD4E0 /* TLTintColor.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AA5DCA1BCE647F005DD4E0 /* TLTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA5DF31BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLTheme" */;
+			buildPhases = (
+				82AA5DC71BCE647F005DD4E0 /* Sources */,
+				82AA5DC81BCE647F005DD4E0 /* Frameworks */,
+				82AA5DC91BCE647F005DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLTheme;
+			productName = TLTheme;
+			productReference = 82AA5DCB1BCE647F005DD4E0 /* TLTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82AA5DDE1BCE6480005DD4E0 /* TLThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA5DF61BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLThemeTests" */;
+			buildPhases = (
+				82AA5DDB1BCE6480005DD4E0 /* Sources */,
+				82AA5DDC1BCE6480005DD4E0 /* Frameworks */,
+				82AA5DDD1BCE6480005DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AA5DE11BCE6480005DD4E0 /* PBXTargetDependency */,
+			);
+			name = TLThemeTests;
+			productName = TLThemeTests;
+			productReference = 82AA5DDF1BCE6480005DD4E0 /* TLThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82AA5DE91BCE6480005DD4E0 /* TLThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA5DF91BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLThemeUITests" */;
+			buildPhases = (
+				82AA5DE61BCE6480005DD4E0 /* Sources */,
+				82AA5DE71BCE6480005DD4E0 /* Frameworks */,
+				82AA5DE81BCE6480005DD4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82AA5DEC1BCE6480005DD4E0 /* PBXTargetDependency */,
+			);
+			name = TLThemeUITests;
+			productName = TLThemeUITests;
+			productReference = 82AA5DEA1BCE6480005DD4E0 /* TLThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AA5DC31BCE647F005DD4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Robert;
+				TargetAttributes = {
+					82AA5DCA1BCE647F005DD4E0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					82AA5DDE1BCE6480005DD4E0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 82AA5DCA1BCE647F005DD4E0;
+					};
+					82AA5DE91BCE6480005DD4E0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 82AA5DCA1BCE647F005DD4E0;
+					};
+				};
+			};
+			buildConfigurationList = 82AA5DC61BCE647F005DD4E0 /* Build configuration list for PBXProject "TLTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82AA5DC21BCE647F005DD4E0;
+			productRefGroup = 82AA5DCC1BCE647F005DD4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AA5DCA1BCE647F005DD4E0 /* TLTheme */,
+				82AA5DDE1BCE6480005DD4E0 /* TLThemeTests */,
+				82AA5DE91BCE6480005DD4E0 /* TLThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AA5DC91BCE647F005DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA5DD91BCE647F005DD4E0 /* LaunchScreen.storyboard in Resources */,
+				82AA5DD61BCE647F005DD4E0 /* Assets.xcassets in Resources */,
+				82AA5DFE1BCE6709005DD4E0 /* techlove@2x.jpg in Resources */,
+				82AA5DD41BCE647F005DD4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DDD1BCE6480005DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DE81BCE6480005DD4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AA5DC71BCE647F005DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA5E001BCE6CAA005DD4E0 /* TLTintColor.swift in Sources */,
+				82AA5DD11BCE647F005DD4E0 /* ViewController.swift in Sources */,
+				82AA5DCF1BCE647F005DD4E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DDB1BCE6480005DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA5DE41BCE6480005DD4E0 /* TLThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AA5DE61BCE6480005DD4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AA5DEF1BCE6480005DD4E0 /* TLThemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82AA5DE11BCE6480005DD4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AA5DCA1BCE647F005DD4E0 /* TLTheme */;
+			targetProxy = 82AA5DE01BCE6480005DD4E0 /* PBXContainerItemProxy */;
+		};
+		82AA5DEC1BCE6480005DD4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82AA5DCA1BCE647F005DD4E0 /* TLTheme */;
+			targetProxy = 82AA5DEB1BCE6480005DD4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AA5DD21BCE647F005DD4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA5DD31BCE647F005DD4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82AA5DD71BCE647F005DD4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AA5DD81BCE647F005DD4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AA5DF11BCE6480005DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82AA5DF21BCE6480005DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82AA5DF41BCE6480005DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82AA5DF51BCE6480005DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82AA5DF71BCE6480005DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLTheme.app/TLTheme";
+			};
+			name = Debug;
+		};
+		82AA5DF81BCE6480005DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TLThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLTheme.app/TLTheme";
+			};
+			name = Release;
+		};
+		82AA5DFA1BCE6480005DD4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLTheme;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		82AA5DFB1BCE6480005DD4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TLThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robert.TLThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TLTheme;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AA5DC61BCE647F005DD4E0 /* Build configuration list for PBXProject "TLTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA5DF11BCE6480005DD4E0 /* Debug */,
+				82AA5DF21BCE6480005DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AA5DF31BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA5DF41BCE6480005DD4E0 /* Debug */,
+				82AA5DF51BCE6480005DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82AA5DF61BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA5DF71BCE6480005DD4E0 /* Debug */,
+				82AA5DF81BCE6480005DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82AA5DF91BCE6480005DD4E0 /* Build configuration list for PBXNativeTarget "TLThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AA5DFA1BCE6480005DD4E0 /* Debug */,
+				82AA5DFB1BCE6480005DD4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AA5DC31BCE647F005DD4E0 /* Project object */;
+}
